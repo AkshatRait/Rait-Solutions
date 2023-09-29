@@ -1,0 +1,22 @@
+#customer-testimonals{
+    background-color: gray;
+    height: 40vh;   
+    display: flex;
+    justify-content: center;
+    align-self:center;
+    margin-top:2px;
+}
+
+#customer-testimonals img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.customer-container{
+    margin:auto;
+    width: 90%;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

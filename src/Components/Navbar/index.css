@@ -1,0 +1,33 @@
+nav h3{
+    width: fit-content;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0; 
+    color:white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.book-btn{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    background-image: linear-gradient(red, yellow)
+}
+
+.buttons button{
+    border: none;
+}
