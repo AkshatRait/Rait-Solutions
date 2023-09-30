@@ -1,8 +1,16 @@
 #hero-img {
     max-width: 100%;
-    position: relative;
-    overflow: hidden; /* Ensure the image stays within its container */
-    height:50vh;
+    background-image: url("/src/assets/carDetail.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #hero-img img {
@@ -23,4 +31,11 @@
 
 .hero-text button{
     border: none;
+}
+
+#hero-img button{
+    background-color: black;
+    color: white;
+    width: 20vw;
+    padding:3px;
 }
