@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import { Button } from 'react-bootstrap'
 
 const Footer = () => {
   return (
@@ -14,10 +15,10 @@ const Footer = () => {
         <br />
         <div className="bottomsection-footer">
             <div>
-              <button>Home</button>
-            <button>About</button>
-            <button>Contact</button>
-            <button>Book</button>  
+              <Button>Home</Button>
+            <Button>About</Button>
+            <Button>Contact</Button>
+            <Button>Book</Button>  
             </div>
             <p>Copyright</p>
         </div>

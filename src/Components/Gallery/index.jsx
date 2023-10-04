@@ -1,5 +1,6 @@
 import React from 'react'
 import "./index.css"
+import { Button } from 'react-bootstrap'
 
 const Gallery = () => {
   return (
@@ -8,7 +9,7 @@ const Gallery = () => {
         className="container-one">
             <h4>lsadhoi asdi apsko </h4>
             <p>djas slhdska jsadkjl d</p>
-            <button>Learn More</button>
+            <Button variant="outlined">Learn More</Button>
         </div>
         <div className="container-two">
             <img src="/src/assets/carDetail.jpg" alt="" />  
@@ -17,7 +18,7 @@ const Gallery = () => {
         className="container-three">
             <h4>lsadhoi asdi apsko </h4>
             <p>djas slhdska jsadkjl d</p>
-            <button>Learn More</button>
+            <Button variant="outlined">Learn More</Button>
         </div>
         <div className="container-four">
             <img src="/src/assets/carDetail.jpg" alt="" />  

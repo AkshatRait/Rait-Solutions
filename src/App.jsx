@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Home from './Pages/Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
