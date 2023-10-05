@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./index.css";
 import { Input } from '@mui/material';
-import { Textarea } from '@mui/joy';
+import { Textarea,TextField } from '@mui/joy';
 import emailjs from 'emailjs-com';
 import { Button } from 'react-bootstrap';
 
@@ -76,6 +76,7 @@ const CallToAction = () => {
                         variant="soft"
                         label={item}
                         required
+                        autoFocus
                         value={formData[item]}
                         onChange={handleChange}
                     />

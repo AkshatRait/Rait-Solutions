@@ -3,6 +3,7 @@ import HeroImage from '../../Components/HeroImage'
 import CustomerTest from '../../Components/CustomerTest'
 import Gallery from '../../Components/Gallery'
 import CallToAction from '../../Components/CallToAction'
+import { Link, Route,Routes } from 'react-router-dom'
 
 const Home = () => {
   return (

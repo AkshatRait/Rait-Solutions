@@ -1,6 +1,7 @@
 import React from 'react'
 import "./index.css"
 import Button from '@mui/joy/Button';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -12,11 +13,12 @@ const Navbar = () => {
                 color: 'white',
             }}
             variant="plain">Home</Button>
-            <Button 
+            <Link to='/src/Pages/Services/'><Button 
             sx={{
                 color: 'white',
             }}
-            variant="plain">Services</Button>
+            variant="plain">Services</Button></Link>
+           
             <Button 
             sx={{
                 color: 'white',
