@@ -1,6 +1,6 @@
 #hero-img {
     max-width: 100%;
-    background-image: url("/src/assets/carDetail.jpg");
+    background-image: url("https://cfx-wp-images.imgix.net/2020/01/GettyImages-1135483823.jpg?auto=compress%2Cformat&ixlib=php-3.3.0&s=4ba60eab056fa4fae3724d926a07e46f");
 
     /* Set a specific height */
     min-height: 500px;
@@ -27,10 +27,23 @@
     transform: translate(-50%, -50%);
     color: white;
     z-index: 1; /* Set a higher z-index to place the text above the image */
+    /* border-color: black;
+    border-style: solid; */
+    padding:5px;
+    width: 100%;
+}
+
+.hero-text h1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: 4.5rem;
+    width: 100%;
 }
 
 .hero-text button{
     border: none;
+}
+.hero-text p{
+    font-size: 1.5rem;
 }
 
 #hero-img button{

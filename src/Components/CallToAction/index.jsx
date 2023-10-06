@@ -15,7 +15,7 @@ const CallToAction = () => {
     });
 
     const templateParams = {
-        to_name: 'Recipient Name', // Replace with the recipient's name or use formData.name
+        to_name: formData.name, // Replace with the recipient's name or use formData.name
         from_name: formData.name,
         message: formData.message,
     };
@@ -53,7 +53,7 @@ const CallToAction = () => {
         if (item === "message") {
             return (
                 <div key={item}>
-                    <label htmlFor={item}>{item}:</label>
+                    <label htmlFor={item}>{item.toUpperCase()}:</label>
                     <Textarea
                         variant="outlined"
                         minRows={2}
@@ -68,15 +68,15 @@ const CallToAction = () => {
         } else {
             return (
                 <div key={item}>
+                    <label htmlFor={item}>{item.toUpperCase()}</label>
                     <Input
                         type="text"
                         id={item}
                         name={item}
                         placeholder={item}
                         variant="soft"
-                        label={item}
                         required
-                        autoFocus
+                        label={item}
                         value={formData[item]}
                         onChange={handleChange}
                     />
@@ -86,22 +86,26 @@ const CallToAction = () => {
     });
 
     return (
+        <div className='cta-header'>
+             <h2>Send your vehicle's make,model,year and the type of service you are looking for in the message tab for an estimate.</h2>
+        
         <div id="cta-container">
             <div className="cta-one">
                 <h5>Contact Now</h5>
                 <h3><strong>GET IN TOUCH NOW!</strong></h3>
-                <p>sbfjksn sdkflj sdks dfk</p>
                 <p>Phone- (206)331-1304</p>
-                <p>Address- asdsa@gmask.com</p>
+                <p>Email- AkshatRait@gmail.com</p>
+                <p>Address- 124 Conch Street, Bikini Bottom</p>
             </div>
             <div className="cta-two">
                 <form onSubmit={sendEmail}>
                     {divs}
                     <div>
-                        <Button variant="soft" type="submit">Submit</Button>
+                        <Button variant="dark" type="submit">Submit</Button>
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     );
 };

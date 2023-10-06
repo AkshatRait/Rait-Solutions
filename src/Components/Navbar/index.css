@@ -1,17 +1,28 @@
-nav h3{
-    margin: 0 0 0 1rem;
-    width: fit-content;
+nav .logo-name{
+    width: 30%;
     justify-content: flex-start;
     display: flex;
     align-items: center;
     margin-bottom: 0; 
     color:white;
 }
+.logo-name img{
+    width: fit-content;
+    height: 100%;
+}
+.logo-name h3{
+    margin-bottom: 0;
+}
+
+a{
+    margin: auto;
+}
 
 nav{
     justify-content: space-between;
     background-color: black;
     padding:5px;
+    height: 10vh;
 }
 
 .buttons{
@@ -20,12 +31,12 @@ nav{
     gap: 5px;
 }
 
-.book-btn{
+.booking-btn{
     border-style: solid;
     border-color: white;
     border-width: 2px;
     color: white;
-    background-image: linear-gradient(red, yellow)
+    background-image: linear-gradient(white,black)
 }
 
 .buttons button{

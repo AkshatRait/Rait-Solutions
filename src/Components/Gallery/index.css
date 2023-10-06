@@ -1,23 +1,28 @@
 #gallery{
-    background-color: white;
+    background-image: url(https://t3.ftcdn.net/jpg/01/40/02/02/360_F_140020217_Y1LPOitOKVG2Mc3JksbG6BnCbPOiNPam.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100vh;
+
 }
 
 #gallery img{
-    width: 50%;
+    width: 80%;
+    min-height: fit-content;
 }
 
 .container-one{
     margin: auto;
-    height:40vh;
+    height:50%;
     grid-column: 1/2;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 .container-two{
@@ -28,12 +33,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background: linear-gradient(red, white);
+    padding:2px;
     height: 100%;
 }
 
 .container-three{
+    
     margin: auto;
     height:40vh;
     grid-column: 2/2;
@@ -55,6 +60,46 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(white, red);
+    padding:2px;
     height: 100%;
 }
+
+.gallery h1{
+    margin: auto;
+    font-size: 4.5rem;
+    color: white;
+    padding:20px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.container-one p{
+    text-align: left;
+}
+.container-three p{
+    text-align: right;
+}
+
+.gallery p{
+    width: 90%;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.gallery{
+    background-color: black;
+}
+
+.gallery h4{
+    background-color: white;
+    padding: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.gallery button{
+    background: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
