@@ -1,5 +1,29 @@
-#reviews-container{
+#reviews{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    background-color: black;
+    gap:5px;
+    padding:5px;
+}
+
+.avatar{
+    border-radius: 50%;
+    background-color: gray;
+    width: fit-content;
+    height:50px;
+}
+
+#reviews-container h1{
+text-align: center;
+font-size: 3.5rem;
+font-weight: 900;
+}
+
+.review-card{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 95%;
+    margin: auto;
+    height: fit-content;
 }
