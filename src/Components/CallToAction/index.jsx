@@ -15,9 +15,10 @@ const CallToAction = () => {
     });
 
     const templateParams = {
-        to_name: formData.name, // Replace with the recipient's name or use formData.name
+        to_name: 'Akshat', // Replace with the recipient's name or use formData.name
         from_name: formData.name,
         message: formData.message,
+        from_email: formData.email,
     };
     
     const handleChange = (e) => {
