@@ -7,13 +7,13 @@ const CustomerTest = () => {
       review:
         "Rait Solutions not only made my car look brand new, but their friendly and professional staff made the entire experience enjoyable. I wouldn't trust anyone else with my car detailing needs.",
       image:
-        "https://i0.wp.com/i.pinimg.com/originals/13/75/29/137529739628b18fcf20eb16e9e5aafe.jpg?resize=160,120",
+        "https://media1.s-nbcnews.com/i/streams/2014/December/141212/1D274907421614-today-simpsons-25-141211-Maggie.jpg",
     },
     {
       review:
         "Rait Solutions took our car detailing experience to a whole new level. Their attention to detail and commitment to perfection truly set them apart in the industry.",
       image:
-        "https://th-thumbnailer.cdn-si-edu.com/5a79C6jJ8BrChMX5tgEKiMI_qqo=/1000x750/filters:no_upscale():focal(792x601:793x602)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/52/e4/52e44474-c2dc-41e0-bb77-42a904695196/this-image-shows-a-portrait-of-dragon-man-credit-chuang-zhao_web.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Lisa_Simpson.png/220px-Lisa_Simpson.png",
     },
     {
       review:
@@ -24,7 +24,7 @@ const CustomerTest = () => {
     {
       review:
         "Rait Solutions made my car look brand new again! Their team is highly skilled and professional, and the results speak for themselves. I'll definitely be a repeat customer.",
-      image: "https://www.varsity.co.uk/images/dyn/store/465/0/39262.jpeg",
+      image: "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2012/9/19/1348050411799/Ralph-Wiggum-003.jpg?width=700&quality=85&auto=format&fit=max&s=e0b63e3485a4a02f3697520f744e0a30",
     },
   ];
 
