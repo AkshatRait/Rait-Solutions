@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav style={{display:'flex'}}>
         <div className="logo-name">
-            <img src="../../assets/Screenshot 2023-10-02 105809.png" alt="" />
+            <img src="src/assets/Screenshot 2023-10-02 105809.png" alt="" />
         <h3>Rait Solutions</h3>
         </div>
         <div className='buttons'>
